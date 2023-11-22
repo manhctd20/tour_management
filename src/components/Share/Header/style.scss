@@ -1,0 +1,16 @@
+.header{
+    &__wrapper{
+        background-color: #FFFFFF;
+        padding: 10px;
+    }
+    &__icon{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+.ant-drawer-header-title{
+    flex-direction: row-reverse;
+}
+.ant-drawer-title{
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.dashboard {
+  &__wrapper {
+  }
+  &__title {
+    @media screen and (max-width: 768px) {
+      text-align: center !important;
+    }
+  }
+
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
+
+.ant-layout-sider-zero-width-trigger {
+  top: 2px !important;
+}
